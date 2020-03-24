@@ -14,7 +14,9 @@ a {
 
 img {
     width: 85%; /* define o comprimento */
+
 }
+
 
 /* FONTS */
 h1 {
@@ -73,3 +75,26 @@ p {
     border: 1px solid #5d1277; /* cria uma borda no elemento. Ordem de valores: grossura-da-borda tipo-da-borda cor-da-borda. */
 }
 
+@media screen and (max-width: 600px) {
+    .sobre-conteudo, .sobre-imagem {
+        width: 100%;
+        }
+
+        h1, h2, p {
+            text-align: center;
+        }
+
+        p {
+            max-width: 430x;
+            margin: 0 auto 110px auto;
+        }
+
+        .sobre-conteudo__botoes {
+            text-align: center;
+        }
+
+        img {
+            width: 100%;
+            margin-top: 40px;
+        }
+    }
