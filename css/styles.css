@@ -1,0 +1,54 @@
+
+body {
+    font-family: 'Varela Round', sans-serif;
+}
+
+.nav__bar {
+    background-color: white;
+    width: 100%;
+    min-height: 50px;
+    margin-top: 0;
+}
+
+.nav__menu-icon {
+ display: flex;
+ justify-content: end;
+ max-width: 35px;
+ padding: auto;
+}
+
+.wrapper {
+    display: block;
+    background-image: url(../aula-5/mundo-gelado/img/foto-banner.jpg);
+    filter: grayscale(100%);
+    background-repeat: no-repeat;
+    font-family: 'Varela Round', sans-serif;
+    padding: 16px 30px;
+    max-width: 100%;
+    min-height: 500px;
+   
+ }
+
+
+  .wrapper__title {
+      color: white;
+      text-align: center;
+      line-height: 20px;
+      margin-top: 30px;
+  }
+
+  .wrapper__text {
+      color: black;
+      line-height: 35px;
+      margin-top: 20px;
+  }
+
+  .btn {
+      color: white;
+      background-color: gray;
+      border-radius: 30px;
+      text-decoration: none;
+      margin-top: 50px;
+      display: flex;
+      justify-content: center;
+  }
