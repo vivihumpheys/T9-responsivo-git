@@ -26,7 +26,7 @@ Em linhas gerais, o Git promove:
 * **Colaboração**: Facilita o trabalho em equipe (entender o que foi feito, onde parou, quem fez o que).
 * **Segurança**:  Se algo der errado, você pode resgatar uma versão anterior, além  de ter o seu projeto salvo em um lugar seguro.
 
-***
+*** 
 
 ## Github
 
